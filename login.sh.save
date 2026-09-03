@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+SENHA
+SENHA_CORRETA=CORINTHIANS
+read -p "Por favor, digite sua senha: " SENHA
+
+while [ CONTADOR -lt 3 ]
+do 	
+	read -p "Por favor, digite sua senha: " SENHA
